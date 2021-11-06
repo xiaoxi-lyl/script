@@ -8,7 +8,7 @@
 
 安装参考：[pyinstaller虚拟环境打包](https://www.jianshu.com/p/2656fbc01c54)
 
-上述环境安装完成后，可以直接使用如下命令：```pyinstaller -F -w -p "虚拟环境路径" 文件名称```
+上述环境安装完成后，可以直接使用如下命令：```pyinstaller -F -w -p "虚拟环境路径" 文件名称``` 即可完成文件打包，然后设置为windowss开机自启即可。
 
 PS：虚拟环境打包生成的exe文件很小，约为6MB
 
