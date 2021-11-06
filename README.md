@@ -1,5 +1,5 @@
-# script
-## 南京工业职业技术大学校园网登录（pc端）
+# 南京工业职业技术大学校园网登录（pc端）
+## github上南工大不能没有姓名！！！
 
 该程序是使用python的chrome webdriver和selenium实现的，然后使用pyinstaller在虚拟环境下打包生成的exe文件，然后放入windows的开机自启任务中，即可实现自动登录
 
@@ -8,7 +8,9 @@
 
 安装参考：[pyinstaller虚拟环境打包](https://www.jianshu.com/p/2656fbc01c54)
 
-上述环境安装完成后，可以直接使用如下命令：```pyinstaller -F -w -p "虚拟环境路径" 文件名称``` 即可完成文件打包，然后设置为windows开机自启即可
+上述环境安装完成后，可以直接使用如下命令：```pyinstaller -F -w -p 虚拟环境路径 文件名称```
+
+例如 ``` pyinstaller -F -w -p F:\PythonEnvs\removepicturebg_env\Scripts removebg_test.py ``` 即可完成文件打包，然后设置为windows开机自启即可
 
 PS：虚拟环境打包生成的exe文件很小，约为6MB
 
